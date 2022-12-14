@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    color: #FFFFFF;
+    background-image: url(./assets/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 2%;
+}
+
+.heading__first{
+    margin-top: 5%;
+    font-size: 1em;
+font-weight: 400;
+}
+
+.heading__second{
+    margin-top: 3%;
+    font-size: 2em;
+font-weight: 500;
+}
+
+.heading__main{
+    font-size: 64px;
+font-weight: 700;
+}
+
+
+.header__subtitle{
+margin-top: 8%;
+}
+
+.icons{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.title__section1{
+    margin-top: 5%;
+    margin-left: 19%;
+    padding: 3%;
+    color: #868585;
+    font-size: 24px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section1__img{
+    height: 100vh;
+    max-width: 100%;
+}
+
+.section1__text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 19%;
+    padding: 3%;
+}
+h3{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em;
+}
+.pic__container1{
+    width: 70%;
+}
+.title__section2{
+    margin-top: 5%;
+    margin-left: 19%;
+    padding: 3%;
+    color: #868585;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #303030;
+    margin:0 auto;
+}
+
+.menu li {
+    
+    display: inline;
+    margin: 1em;
+  }
+
+  .menu{
+    margin-left: 20%;
+  }
+
+  .section2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+  }
+  .section2_article1{
+    margin-left: 19%;
+    margin:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    padding: 1em;
+    gap: 1em;
+  }
+.section2_part2__img{
+    padding: 1em;
+    height: 75vh;
+    max-width: 80%;
+}
+
+.section2_article1__main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10em;
+    padding: 1%;
+    
+}
+
+.section2_part2_text{
+    width: 80%;
+}
